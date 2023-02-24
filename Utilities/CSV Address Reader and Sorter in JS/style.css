@@ -1,0 +1,45 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ccc5bd;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 15px;
+}
+
+table {
+    background-color: #c6c6c3;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-top: 15px;
+}
+
+/* Table Header Cell */
+th {
+    border: 1px solid black;
+}
+
+/* Table Data Cell */
+td {
+    padding: 15px;
+    border: none;
+    text-align: center;
+}
+
+/* First Row */
+table tr:first-child {
+    border: 1px solid black;
+    font-weight: bolder;
+}
+
+/* All Rows but the First */
+table tr:not(:first-child) {
+    font-size: smaller;
+}
